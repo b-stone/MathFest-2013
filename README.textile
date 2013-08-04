@@ -9,8 +9,8 @@ h2. Usage
 h3. First Clone the Repository
 
 <pre>
-git clone git@github.com:vlandham/vis-ideal.git
-cd vis-ideal
+git clone https://github.com/b-stone/MathFest-2013.git
+cd MathFest-2013
 </pre>
 
 
