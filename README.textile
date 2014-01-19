@@ -9,27 +9,29 @@ h2. Usage
 h3. First Clone the Repository
 
 <pre>
-git clone https://github.com/b-stone/MathFest-2013.git
-cd MathFest-2013
+user:~$ git clone https://github.com/b-stone/MathFest-2013.git
+user:~$ cd MathFest-2013
 </pre>
 
+h3. Download MathJax
+
+The slides need MathJax to translate the LaTeX to html.  The easiest way to get it is to clone the repo.
+
+<pre>
+user:~/MathFest-2013$ git clone https://github.com/mathjax/MathJax.git
+</pre>
+
+This creates a directory 'MathJax' in the 'MathFest-2013' folder. Depending on your OS, you might have to change the folder name to 'mathjax'. 
 
 h3. View
 
 You can start up a local webserver by using python's simple server:
 
 <pre>
-python -m SimpleHTTPServer 3000
+user:~/MathFest-2013$ python -m SimpleHTTPServer 3000
 </pre>
 
+Now go to "http://0.0.0.0:3000":http://0.0.0.0:3000/ in your browser to view the slides.
 
-or @thin@ in ruby
-
-<pre>
-thin start
-# might have to run 'bundle install' first
-</pre>
-
-Now go to "http://0.0.0.0:3000":http://0.0.0.0:3000/
 
 
