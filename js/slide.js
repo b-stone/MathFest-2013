@@ -4,7 +4,7 @@ if(typeof this.substeps == 'undefined') {
   console.log(this.substeps);
 }
 
-var src = null;
+// var src = null;
 var parentWindow = window.parent;
 
 window.onload = setup;
